@@ -1,7 +1,6 @@
-*Dubovik Egor*
-==============
+# Hi, I'm Egor
 
-## Junior Frontend Developer
+__*Junior Frontend Developer*__
 
 >
 >It's kind of fun to do the impossible. (Walt Disney)
@@ -14,7 +13,7 @@
 * VS Code, Gulp, Figma, Photoshop
 
 ## Contact information:
-* Location: Minsk, Belarus
+* Location: Minsk, Belarusadd 
 * WhatsApp: <https://api.whatsapp.com/send?phone=375292132093>
 * Telegram: <https://t.me/eGoDreamer>
 * E-mail: egorka54896@gmail.com
