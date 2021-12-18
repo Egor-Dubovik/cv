@@ -18,6 +18,26 @@ __*Junior Frontend Developer*__
 * Telegram: <https://t.me/eGoDreamer>
 * E-mail: egorka54896@gmail.com
 
+## Code example:
+Your task is to write a function maskify, which changes all but the last four characters into '#'.
+  ```
+  function maskify(numb) {
+  
+  	if (numb.length > 4) {
+  		let numbHide = '';
+  		numb.split('').forEach((item, i) => {
+  			numbHide = (numb.length - i > 4) ? numbHide += '#' : numbHide += item;
+  		})
+  		return numbHide;
+  	} else {
+  		return numb;
+  	}
+  
+  }
+  
+  console.log(maskify("1265923132"));
+  ```
+  
 ## Education
 * University: Belarusian State Academy of Telecommunications, Software maintenance
 *Courses: 
