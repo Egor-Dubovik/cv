@@ -1,15 +1,11 @@
-Dubovik Egor
-============
+*Dubovik Egor*
+==============
 
--------------------------
+## Junior Frontend Developer
 
-__Junior Frontend Developer__
-
--------------------------
-
-> It's kind of fun to do the impossible. (Walt Disney)
-
--------------------------
+>
+>It's kind of fun to do the impossible. (Walt Disney)
+>
 
 ## Skills and Proficiency:
 * HTML5, CSS3, SCSS
@@ -17,27 +13,20 @@ __Junior Frontend Developer__
 * Git, GitHub
 * VS Code, Gulp, Figma, Photoshop
 
--------------------------
-
 ## Contact information:
-
 * Location: Minsk, Belarus
 * WhatsApp: <https://api.whatsapp.com/send?phone=375292132093>
-* Telegram: <t.me/eGoDreamer>
+* Telegram: <https://t.me/eGoDreamer>
 * E-mail: egorka54896@gmail.com
 
--------------------------
-
-## English Intermediate
-I practice and improve my English every day  
-
--------------------------
 ## Education
 * University: Belarusian State Academy of Telecommunications, Software maintenance
 *Courses: 
   * I studied by myself using the Internet 
   * RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
 
+## English Intermediate
+I practice and improve my English every day  
 
 
 
