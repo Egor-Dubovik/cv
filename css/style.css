@@ -96,8 +96,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 @font-face {
   font-family: "icomoon";
-  src: url("../../files/iconFonts/icomoon.eot?xpm5vf");
-  src: url("../../files/iconFonts/icomoon.eot?xpm5vf#iefix") format("embedded-opentype"), url("../../files/iconFonts/icomoon.ttf?xpm5vf") format("truetype"), url("../../files/iconFonts/icomoon.woff?xpm5vf") format("woff"), url("../../files/iconFonts/icomoon.svg?xpm5vf#icomoon") format("svg");
+  src: url("../files/iconFonts/icomoon.eot?xpm5vf");
+  src: url("../files/iconFonts/icomoon.eot?xpm5vf#iefix") format("embedded-opentype"), url("../files/iconFonts/icomoon.ttf?xpm5vf") format("truetype"), url("../files/iconFonts/icomoon.woff?xpm5vf") format("woff"), url("../files/iconFonts/icomoon.svg?xpm5vf#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
