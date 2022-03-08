@@ -18,18 +18,18 @@
 				<div class="header__menu menu">
 					<nav class="menu__body">
 						<ul class="menu__list">
-							<li><a href="#home" class="menu__link">Home</a></li>
-							<li><a href="#about" class="menu__link">About</a></li>
-							<li><a href="#skills" class="menu__link">Skills</a></li>
-							<li><a href="#code" class="menu__link">Code</a></li>
-							<li><a href="#portfolio" class="menu__link">Portfolio</a></li>
-							<li><a href="#education" class="menu__link">Education</a></li>
-							<li><a href="#contact" class="menu__link">Contact</a></li>
+							<li><a href="#home" class="menu__link _lan" data-lan="home">Home</a></li>
+							<li><a href="#about" class="menu__link _lan" data-lan="about">About</a></li>
+							<li><a href="#skills" class="menu__link _lan" data-lan="skills">Skills</a></li>
+							<li><a href="#code" class="menu__link _lan" data-lan="code">Code</a></li>
+							<li><a href="#portfolio" class="menu__link _lan" data-lan="portfolio">Portfolio</a></li>
+							<li><a href="#education" class="menu__link _lan" data-lan="education">Education</a></li>
+							<li><a href="#contact" class="menu__link _lan" data-lan="contact">Contacts</a></li>
 						</ul>
 					</nav>
-					<!-- <div class="menu__switcher">
-				<input class="menu__checkbox" checked type="checkbox">
-			</div> -->
+					<div class="menu__switcher">
+						<input class="menu__checkbox" checked type="checkbox">
+					</div>
 					<div class="menu__icon icon-menu">
 						<span></span>
 					</div>
@@ -38,32 +38,29 @@
 		</header>
 		<main id="home" class="home">
 			<div class="home__container __container">
-				<h1 class="home__title">HE<br>LLO.</h1>
-				<!-- <div class="home__content">
-					<div class="home__img">
-						<img src="img/svg/main.svg" alt="avatar">
-					</div>
-				</div> -->
+				<h1 class="home__title _anime-item _lan" data-lan="home-title">HE<br>LLO.</h1>
 				<a href="#about" class="home__sсroll-btn">
 					<img src="img/svg/scroll-mouse.svg" alt="scroll">
 				</a>
-				<img class="home__img" src="./img/picturce/main.png" alt="author image">
+				<img class="home__img _anime-item _anime-hiden" src="./img/picturce/main.png" alt="author image">
 			</div>
 		</main>
 		<section id="about" class="aboute">
-			<div class="aboute__container __container">
-				<h2 class="aboute__title">About me</h2>
+			<div class="aboute__container __container _anime-item">
+				<h2 class="aboute__title _lan" data-lan="about-title">About me</h2>
 				<div class="aboute__img">
 					<img src="img/picturce/main.png" alt="">
 				</div>
 				<div class="aboute__text">
-					<p class="aboute__story">I never thought that I'd wanna become a programmer. I really thought it's
+					<p class="aboute__story _lan" data-lan="about-story">I never thought that I'd wanna become a programmer.
+						I
+						really thought it's
 						boring. But one day on the
 						internet I came across an advertisement for a free course on web development. It attracted me because
-						everything was clearly. And now you are reading my CV. Web Development is sometimes very difficult for
-						me. Consistency is important here.
+						everything was clearly. And now you are reading my CV. I have no greater goal, than to become a
+						professional in this field. Consistency is important here.
 					</p>
-					<p class="aboute__motivation">
+					<p class="aboute__motivation _lan" data-lan="about-motivation">
 						It’s kind of fun to do the impossible. (Walt Disney)
 						<span>P.S. Hope you know the Disney story</span>
 					</p>
@@ -71,9 +68,9 @@
 			</div>
 		</section>
 		<section id="skills" class="scills">
-			<div class="scills__container __container">
+			<div class="scills__container __container _anime-item">
 				<div class="scills__content">
-					<h2 class="scills__title">Skills and Proficiency</h2>
+					<h2 class="scills__title _lan" data-lan="skills-title">Skills and Proficiency</h2>
 					<div class="scills__body">
 						<div class="scills__hard">
 							<h3 class="hard-scills__title">Hard Scills</h3>
@@ -189,9 +186,10 @@
 			</div>
 		</section>
 		<section id="code" class="code-example">
-			<div class="code-example__container __container">
-				<h2 class="code-example__title">Code example:</h2>
-				<p class="code-example__task">Your task is to write a function maskify, which changes all but the last four
+			<div class="code-example__container __container _anime-item">
+				<h2 class="code-example__title _lan" data-lan="code-title">Code example:</h2>
+				<p class="code-example__task _lan" data-lan="example-task">Your task is to write a function maskify, which
+					changes all but the last four
 					characters into ‘#’.</p>
 				<pre class="code-example__body">
 					<code class="code-example__content">
@@ -214,25 +212,25 @@
 				</pre>
 				<div class="code-example__buttons">
 					<a id="play" href="&" class="code-example__btn">
-						<img src="img/svg/19003027681551938930.svg" alt="">
+						<img src="img/svg/show_code.svg" alt="">
 					</a>
 					<a target="_blank" title="codepan" href="https://codepen.io/egor-dubovik/pen/dyVJQpe"
 						class="code-example__btn">
-						<img src="img/svg/6729288061594722075.svg" alt="">
+						<img src="img/svg/open_editor.svg" alt="">
 					</a>
 				</div>
 			</div>
 		</section>
 		<section id="portfolio" class="portfolio">
 			<div class="portfolio__container __container">
-				<h2 class="portfolio__title">My portfolio</h2>
+				<h2 class="portfolio__title _lan" data-lan="portfolio-title">My portfolio</h2>
 				<ul class="portfolio__items">
-					<li class="portfolio__item">
+					<li class="portfolio__item _anime-item">
 						<a target="_blank" href="https://egor-dubovik.github.io/cinemaSite/">
 							<img src="img/picturce/cinema.jpg" alt="site cinema">
 						</a>
 					</li>
-					<li class="portfolio__item">
+					<li class="portfolio__item _anime-item">
 						<a target="_blank" href="https://egor-dubovik.github.io/siteFlowers/">
 							<img src="img/picturce//flovers.jpg" alt="site flowers">
 						</a>
@@ -242,48 +240,59 @@
 		</section>
 		<section id="education" class="education">
 			<div class="education__container __container">
-				<h2 class="education__title">Education</h2>
-				<ul class="education__info">
-					<li class="education__item">University: Belarusian State Academy of Telecommunications, Software
+				<h2 class="education__title _lan" data-lan="education-title">Education</h2>
+				<ul class="education__info _anime-item">
+					<li class="education__item _lan" data-lan="education-li1">University: Belarusian State Academy of
+						Telecommunications, Software
 						maintenance
 					</li>
-					<li class="education__item">I studied Web dev by myself using the Internet</li>
-					<li class="education__item">RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
-					<li class="education__item">English Intermediate. I practice and improve my English every day</li>
+					<li class="education__item _lan" data-lan="education-li2">I studied Web dev by myself using the Internet
+					</li>
+					<li class="education__item _lan" data-lan="education-li3">RS Schools Course «JavaScript/Front-end. Stage
+						0»
+						(finished)</li>
+					<li class="education__item _lan" data-lan="education-li4">English Intermediate. I practice and improve my
+						English almoust every day</li>
 				</ul>
 			</div>
 		</section>
 		<section id="contact" class="contact">
-			<div class="contact__container __container">
+			<div class="contact__container __container _anime-item">
 				<div class="contact__description">
-					<h2 class="contact__title">Contact Me</h2>
-					<p class="contact__text">Let's stay in touch. For more information send email</p>
-					<img class="contact__img" src="img/svg/message.svg" alt="">
+					<h2 class="contact__title _lan" data-lan="contact-title">Contact Me</h2>
+					<p class="contact__text _lan" data-lan="contact-text">Let's stay in touch. For more information send
+						email or
+						write to the social network ↓</p>
+					<img class="contact__img" src="img/svg/message.svg" alt="img: girl with letter">
 				</div>
 				<form action="#" class="contact__form form">
 					<div class="form__item">
 						<input required type="text" id="userName" class="form__input" name="name">
-						<label for="userName" class="form__label"><span class="form__label-text">Name*</span></label>
+						<label for="userName" class="form__label"><span class="form__label-text _lan"
+								data-lan="form-name">Name*</span></label>
 					</div>
 					<div class="form__item">
 						<input required type="text" id="userEmail" class="form__input" name="email">
-						<label for="userEmail" class="form__label"><span class="form__label-text">Email*</span></label>
+						<label for="userEmail" class="form__label"><span class="form__label-text _lan"
+								data-lan="form-email">Email*</span></label>
 					</div>
 					<div class="form__item">
 						<input required type="tel" id="userPhone" class="form__input" name="phone">
-						<label for="userPhone" class="form__label"><span class="form__label-text">Phone</span></label>
+						<label for="userPhone" class="form__label"><span class="form__label-text _lan"
+								data-lan="form-phone">Phone</span></label>
 					</div>
 					<div class="form__item">
 						<input required id="userMessage" class="form__input" name="message">
-						<label for="userMessage" class="form__label"><span class="form__label-text">Message</span></label>
+						<label for="userMessage" class="form__label"><span class="form__label-text _lan"
+								data-lan="form-message">Message</span></label>
 					</div>
 					<div class="form__item">
 						<div class="form__callback">
 							<input class="form__checkbox" type="checkbox" name="checkbox" id="formCheckbox">
-							<label class="form__label-checkbox" for="formCheckbox">call me</label>
+							<label class="form__label-checkbox _lan" for="formCheckbox" data-lan="form-mark">call me</label>
 						</div>
 					</div>
-					<button class="form__btn" type="submit">Send</button>
+					<button class="form__btn _lan" type="submit" data-lan="form-btn">Send</button>
 				</form>
 			</div>
 		</section>
@@ -303,6 +312,7 @@
 			</div>
 		</footer>
 	</div>
+	<script src="js/modules/changeLanguage.js"></script>
 	<script type="module" src="js/app.js"></script>
 </body>
 

@@ -7,7 +7,7 @@ let textAbout = document.querySelector('.aboute__text');
 let menuLinks = document.querySelectorAll('.menu__link');
 
 
-export function addClass() {
+export function switchMenu() {
 	burger.onclick = () => {
 		burger.classList.toggle('active');
 		list.classList.toggle('active');
