@@ -27,7 +27,12 @@ const languages = {
 		"form-phone": "Phone",
 		"form-message": "Message",
 		"form-mark": "call me",
-		"form-btn": "Send"
+		"form-btn": "Send",
+		"portfolio-descriptin-1": "The site to search for trailers and descriptions for movies and series. The sorting of files by trends, popular and top is also implemented. Used TMDB API in this project.",
+		"portfolio-descriptin-2": "A simple landing page presenting a flower shop. Implemented a slider and a map with the location of the store.",
+		"portfolio-descriptin-3": "Tic-tac-toe game implemented. You can play both with a computer and alone. Wins are being counted.",
+		"portfolio-descriptin-4": "Made an audio player. From the controls (buttons): play, pause, flip, repeat, shuffle audio recordings.",
+		"portfolio-descriptin-5": "Photographer's website. From the interesting - the language change and the theme of the site with storing in localstorage are implemented. Also a custom video player.",
 	},
 	"ru": {
 		"home": "Главная",
@@ -57,7 +62,12 @@ const languages = {
 		"form-phone": "Телефон",
 		"form-message": "Сообщение",
 		"form-mark": "перезвони мне",
-		"form-btn": "отправить"
+		"form-btn": "отправить",
+		"portfolio-descriptin-1": "Сайт для поиска трейлеров и описаний к фильмам и сериалам. Также реализована сортировка файлов по трендам, популярным и топовым. В этом проекте используется TMDB API.",
+		"portfolio-descriptin-2": "Простая целевая страница, представляющая цветочный магазин. Реализован слайдер и карта с расположением магазина.",
+		"portfolio-descriptin-3": "Реализована игра крестики-нолики. Можно играть как с компьютером так и одному. Ведётся подсчёт побед.",
+		"portfolio-descriptin-4": "Сделан аудиоплеер. Из средств управления (кнопки): плей, пауза, перелистывание, повтор, перемешать аудиозаписи.",
+		"portfolio-descriptin-5": "Сайт фотографа. Из интересного - реализованы смена языка и тема сайта с запоминанием в localstorage. Также кастомный видеоплеер. ",
 	}
 }
 
