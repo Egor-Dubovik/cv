@@ -3,7 +3,10 @@ import { switchMenu } from "./modules/menuSwitching.js";
 import { scrollToblock } from "./modules/scrollTo.js";
 import { addColorToHeader } from "./modules/addBgToHeader.js"
 import { animateScroll } from "./modules/animateScroll.js"
+import { switchLang } from "./modules/changeLanguage.js"
 
+//переключает язык (при загрузке сайта проверяет язык в localStorage)
+switchLang();
 // добовл0ет анимацию при скроле
 animateScroll();
 //при скроле у хедера появ-я цвет

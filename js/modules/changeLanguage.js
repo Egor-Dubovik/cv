@@ -74,19 +74,46 @@ const languages = {
 const arrOfReplaceWords = document.querySelectorAll('._lan');
 const switcherLang = document.querySelector('.menu__checkbox');
 
-switcherLang.addEventListener("change", changeLangWords);
 
-function changeLangWords(e) {
+function replaceWords(lang) {
 	arrOfReplaceWords.forEach(el => {
 		let replaceEl = el.dataset.lan;
-
-		if (!e.target.checked) {
-			el.innerHTML = languages.ru[replaceEl];
-		} else if ((e.target.checked)) {
-			el.innerHTML = languages.en[replaceEl];
-		}
+		el.innerHTML = languages[lang][replaceEl];
 	})
-	console.log('ff');
 }
 
-console.log(languages.ru.home);
+
+export function switchLang() {
+	let localLang = localStorage.getItem('lang');
+
+	if (localLang !== null) {
+		localLang === 'en' ? switcherLang.checked = true : switcherLang.checked = false;
+	}
+
+	if (switcherLang.checked) {
+		replaceWords('en')
+	} else {
+		replaceWords('ru');
+	}
+
+	switcherLang.addEventListener("change", (e) => {
+		if (!e.target.checked) {
+			localStorage.setItem('lang', 'ru');
+			replaceWords('ru');
+		} else {
+			localStorage.setItem('lang', 'en');
+			replaceWords('en');
+		}
+	});
+
+}
+
+
+
+// switchLang();
+
+
+
+
+
+
