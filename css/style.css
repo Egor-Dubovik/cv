@@ -211,6 +211,7 @@ h6 {
 	width: 40px;
 	height: 35px;
 	cursor: pointer;
+	z-index: 2;
 }
 @media (min-width: 993px) {
 	.icon-menu {
@@ -352,9 +353,6 @@ h3 {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	/* -webkit-box-pack: justify;
-	-ms-flex-pack: justify; */
-	/* justify-content: space-between; */
 	-webkit-box-align: center;
 	-ms-flex-align: center;
 	align-items: center;
@@ -363,10 +361,8 @@ h3 {
 .header__logo {
 	font-size: calc(16px + 8 * ((100vw - 320px) / 1280));
 	font-family: Collisio_Beta;
-	display: flex;
-	flex: 0 0 30%;
-	justify-content: flex-start;
-	margin-right: 10px;
+	margin-right: 40px;
+	white-space: nowrap;
 }
 .header__menu {
 	font-family: beerMoney;
@@ -378,19 +374,18 @@ h3 {
 	align-items: center;
 	text-align: center;
 	justify-content: flex-end;
-	flex: 0 0 70%;
+	flex: 1 1 auto;
 }
 
 .menu__list {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	-webkit-box-pack: end;
-	-ms-flex-pack: end;
-	justify-content: flex-end;
+	flex-wrap: wrap;
 	-webkit-transition: 0.5s ease;
 	-o-transition: 0.5s ease;
 	transition: 0.5s ease;
+	margin-right: 20px;
 }
 @media (max-width: 992px) {
 	.menu__list {
@@ -416,6 +411,8 @@ h3 {
 		-webkit-box-pack: center;
 		-ms-flex-pack: center;
 		justify-content: center;
+		z-index: 1;
+		margin: 0;
 	}
 }
 @media (max-width: 776px) {
@@ -425,7 +422,7 @@ h3 {
 }
 .menu__list.active {
 	background-color: #3545af;
-	right: 0;
+	right: 0px;
 }
 .menu__list li:not(:last-child) {
 	margin-right: calc(20px + 30 * ((100vw - 776px) / 824));
