@@ -364,6 +364,13 @@ h3 {
 	margin-right: 40px;
 	white-space: nowrap;
 }
+
+@media (max-width: 380px) {
+	.header__logo {
+		margin-right: 20px;
+	}
+}
+
 .header__menu {
 	font-family: beerMoney;
 	display: -webkit-box;

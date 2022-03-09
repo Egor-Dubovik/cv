@@ -1,7 +1,6 @@
 const progressBlocks = document.querySelectorAll('.--add');
 
 export function progress() {
-
 	progressBlocks.forEach(elem => {
 		let progressPercent = Number(elem.getAttribute('data-percent'))
 		let width = 1;
@@ -16,5 +15,5 @@ export function progress() {
 			}
 		}
 	})
-
 }
+
