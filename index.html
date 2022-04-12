@@ -302,24 +302,27 @@
 						write to the social network ↓</p>
 					<img class="contact__img" src="img/svg/message.svg" alt="img: girl with letter">
 				</div>
-				<form action="#" class="contact__form form">
+				<form class="contact__form form" action="./php/sendmail.php" method="POST">
 					<div class="form__item">
-						<input required type="text" id="userName" class="form__input" name="name">
-						<label for="userName" class="form__label"><span class="form__label-text _lan"
-								data-lan="form-name">Name*</span></label>
+						<input required type="text" id="userName" class="form__input _req" name="name">
+						<label for="userName" class="form__label">
+							<span class="form__label-text _lan" data-lan="form-name">Name</span>
+						</label>
 					</div>
 					<div class="form__item">
-						<input required type="text" id="userEmail" class="form__input" name="email">
-						<label for="userEmail" class="form__label"><span class="form__label-text _lan"
-								data-lan="form-email">Email*</span></label>
+						<input required type="text" id="userEmail" class="form__input _req" name="email">
+						<label for="userEmail" class="form__label">
+							<span class="form__label-text _lan" data-lan="form-email">Email</span>
+						</label>
 					</div>
 					<div class="form__item">
-						<input required type="tel" id="userPhone" class="form__input" name="phone">
-						<label for="userPhone" class="form__label"><span class="form__label-text _lan"
-								data-lan="form-phone">Phone</span></label>
+						<input required type="tel" id="userPhone" class="form__input _req" name="phone">
+						<label for="userPhone" class="form__label">
+							<span class="form__label-text _lan" data-lan="form-phone">Phone</span>
+						</label>
 					</div>
 					<div class="form__item">
-						<input required id="userMessage" class="form__input" name="message">
+						<input required id="userMessage" class="form__input _req" name="message">
 						<label for="userMessage" class="form__label"><span class="form__label-text _lan"
 								data-lan="form-message">Message</span></label>
 					</div>
@@ -335,9 +338,7 @@
 		</section>
 		<footer class="footer">
 			<div class="footer__container __container">
-				<a target="_blank" href="https://rs.school/js/" class="footer__logo">
-					<img src="img/svg/rs_school_js.svg" alt="">
-				</a>
+				<a href="./index.html" class="footer__logo">EGOR<br>DUBOVIK</a>
 				<div class="footer__contect">
 					<a target="_blank" href="https://api.whatsapp.com/send?phone=375292132093"
 						class="footer__icon _icon-watssapp"></a>
@@ -349,6 +350,7 @@
 			</div>
 		</footer>
 	</div>
+	<script src="./js/modules/validateForm.js"></script>
 	<script type="module" src="js/app.js"></script>
 </body>
 
