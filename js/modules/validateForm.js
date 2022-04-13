@@ -20,14 +20,14 @@ document.addEventListener('DOMContentLoaded', function () {
 			if (response.ok) {
 				let result = await response.json();
 				alert(result.message);
-				form.reset();
-				form.classList.remove('_sending');
+				contactForm.reset();
+				contactForm.classList.remove('_sending');
 			} else {
-				alert('Ошибка');
-				form.classList.remove('_sending');
+				alert('something went wrong (:\nPlease try again or contact me on social networks (see links below)\n\nЧто-то пошло не так...\nПожалуйста попробуйте ещё или свяжись со мной в соц. сети (ссылки смотри ниже)');
+				contactForm.classList.remove('_sending');
 			}
 		} else {
-			alert('Заполните обязательные поля')
+			alert(`Please enter correct information :)\nПожалуйста введи корректную информацию`)
 		}
 	}
 

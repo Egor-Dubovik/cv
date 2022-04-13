@@ -918,10 +918,15 @@ h3 {
 	padding: 10px 0;
 	display: inline-block;
 	max-width: 100%;
-	overflow-x: auto;
+	overflow-x: hidden;
 	overflow-y: hidden;
 	border-radius: 20px;
 	border: 1px solid #000;
+}
+@media (max-width: 992px){
+	.code-example__body {
+		overflow-x: auto;
+	}
 }
 .code-example__content {
 	position: relative;
