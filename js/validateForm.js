@@ -1,4 +1,5 @@
 "use strict"
+import { switchPopap } from "./modules/switchPopap.js";
 
 document.addEventListener('DOMContentLoaded', function () {
 	const contactForm = document.querySelector(".contact__form");
@@ -19,15 +20,15 @@ document.addEventListener('DOMContentLoaded', function () {
 			console.log(formData.entries());
 			if (response.ok) {
 				let result = await response.json();
-				alert(result.message);
+				switchPopap(result.message);
 				contactForm.reset();
 				contactForm.classList.remove('_sending');
 			} else {
-				alert('something went wrong (:\nPlease try again or contact me on social networks (see links below)\n\nЧто-то пошло не так...\nПожалуйста попробуйте ещё или свяжись со мной в соц. сети (ссылки смотри ниже)');
+				switchPopap('Something went wrong (:<br>Please try again or contact me on social networks (see links below)<br><br>Что-то пошло не так...<br>Пожалуйста попробуйте ещё или свяжись со мной в соц. сети (ссылки смотри ниже)');
 				contactForm.classList.remove('_sending');
 			}
 		} else {
-			alert(`Please enter correct information :)\nПожалуйста введи корректную информацию`)
+			switchPopap(`Please enter correct information :)<br>Пожалуйста введи корректную информацию`);
 		}
 	}
 
