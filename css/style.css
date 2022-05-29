@@ -850,10 +850,10 @@ h3 {
 	}
 }
 .hard-scills__title {
-	margin-bottom: c(10px + 10 * ((100vw - 776px) / 1144));
+	margin-bottom: calc(15px + 10 * ((100vw - 776px) / 1144));
 }
 .soft-scills__title {
-	margin-bottom: calc(10px + 10 * ((100vw - 776px) / 1144));
+	margin-bottom: calc(15px + 10 * ((100vw - 776px) / 1144));
 }
 .item {
 	display: -webkit-box;
@@ -969,22 +969,32 @@ h3 {
 	color: #525252;
 	font-weight: 600;
 }
-.code-example__buttons {
+.code-example__codewars {
+  font-size: 18px;  
+  font-weight: 600;
+  line-height: 120%;
+  color: rgb(56, 56, 56);
+}
+.code-example__codewars a {
+  text-decoration: underline;
+ color: #000;
+}
+.code-example__actions {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	-webkit-box-pack: end;
-	-ms-flex-pack: end;
-	justify-content: end;
-	-webkit-box-align: end;
-	-ms-flex-align: end;
-	align-items: flex-end;
+  justify-content: space-between;
+	align-items: center;
 }
-.code-example__buttons :not(:last-child) {
+.code-example__actions :not(:last-child) {
 	margin-right: 20px;
+}
+.code-example__buttons {
+  display: flex;
 }
 .code-example__btn {
 	position: relative;
+  display: block;
 	width: calc(40px + 20 * ((100vw - 320px) / 1600));
 	height: calc(40px + 20 * ((100vw - 320px) / 1600));
 	-webkit-transition: 0.5s ease;
@@ -992,6 +1002,9 @@ h3 {
 	transition: 0.5s ease;
 }
 @media (max-width: 498px) {
+  .code-example__codewars {
+    font-size: 14px;
+  }
 	.code-example__btn {
 		width: 40px;
 		height: 40px;
@@ -1008,8 +1021,8 @@ h3 {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	-o-object-fit: cover;
-	object-fit: cover;
+	-o-object-fit: contain;
+	object-fit: contain;
 }
 
 .portfolio {
