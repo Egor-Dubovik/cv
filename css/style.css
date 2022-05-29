@@ -1052,7 +1052,7 @@ h3 {
 }
 .portfolio__item {
 	position: relative;
-	height: calc(300px + 100 * ((100vw - 320px) / 1600));
+	height: calc(300px + 100 * ((100vw - 320px) / 1920));
 	border-radius: 10px;
 	-webkit-box-shadow: 9px 9px 12px rgba(38, 38, 190, 0.726);
 	box-shadow: 9px 9px 12px rgba(38, 38, 190, 0.726);
@@ -1066,6 +1066,11 @@ h3 {
 	-webkit-transition: 0.6s ease;
 	-o-transition: 0.6s ease;
 	transition: 0.6s ease 0.2s;
+}
+@media (max-width: 992px){
+  .portfolio__item {
+    height: calc(350px + 150 * ((100vw - 320px) / 1920));
+ }
 }
 .portfolio__item._animate {
 	opacity: 1;
