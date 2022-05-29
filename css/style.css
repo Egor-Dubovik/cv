@@ -750,20 +750,18 @@ h3 {
 	transition: all 0.6s ease;
 }
 
+.aboute__container :not(:last-child) {
+  margin-bottom: calc(20px + 25 * ((100vw - 320px) / 1920));
+}
+
+
 @media (max-width: 498px) {
 	.aboute__container {
 		border-radius: 0px;
 		padding: 30px 15px;
 	}
 }
-.aboute__title {
-	margin-bottom: 20px;
-}
-@media (max-width: 498px) {
-	.aboute__title {
-		margin-bottom: 15px;
-	}
-}
+
 .aboute__img {
 	position: relative;
 	overflow: hidden;
@@ -772,7 +770,6 @@ h3 {
 	margin: 0 auto;
 	border-radius: 50%;
 	background-color: rgba(0, 0, 255, 0.2);
-	margin-bottom: 20px;
 }
 .aboute__img img {
 	position: absolute;
@@ -785,13 +782,12 @@ h3 {
 	-o-object-position: 15px -20%;
 	object-position: 15px -20%;
 }
-.aboute__text {
-	font-size: calc(18px + 8 * ((100vw - 320px) / 1600));
-	line-height: 123.0769230769%;
-	text-align: center;
-}
 .aboute__story {
-	margin-bottom: 20px;
+  font-size: calc(18px + 8 * ((100vw - 320px) / 1600));
+  line-height: 123.0769230769%;
+  max-width: 1230px;
+  margin: 0 auto;
+	text-align: center;
 }
 .aboute__motivation {
 	color: #797979;
@@ -854,7 +850,7 @@ h3 {
 	}
 }
 .hard-scills__title {
-	margin-bottom: calc(10px + 10 * ((100vw - 776px) / 1144));
+	margin-bottom: c(10px + 10 * ((100vw - 776px) / 1144));
 }
 .soft-scills__title {
 	margin-bottom: calc(10px + 10 * ((100vw - 776px) / 1144));
