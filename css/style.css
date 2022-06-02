@@ -1161,6 +1161,9 @@ h3 {
 .education__info._animate li:nth-child(4) {
 	transition: all 0.4s ease 0.6s;
 }
+.education__info._animate li:nth-child(5) {
+	transition: all 0.4s ease 0.8s;
+}
 .education__info._animate li {
 	transform: translate(0%, 0);
 }
